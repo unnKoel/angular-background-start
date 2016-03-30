@@ -1,0 +1,218 @@
+<link rel="stylesheet" href="css/compiled/index.css">
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <!--Siderbar phone style-->
+            <button type="button" class="btn btn-navbar visible-phone">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!--右上角功能-->
+            <div class="btn-group visible-phone pull-right">
+                <button class="btn dropdown-toggle" data-toggle="dropdown">
+                    <i class="icon-align-right"></i>
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#">邮箱</a>
+                    </li>
+                    <li>
+                        <a href="#">系统设置</a>
+                    </li>
+                    <li>
+                        <a href="#">用户退出</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a class="brand">LOGO</a>
+
+            <ul class="nav pull-right hidden-phone">
+                <li>
+                    <a href="#" data-toggle="tooltip" title="邮箱">
+                        <i class="icon-envelope-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="tooltip" title="设置">
+                        <i class="icon-cog"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="tooltip" title="退出">
+                        <i class="icon-signout"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row-fluid" id="container-box">
+        <div class="span3" id="col_side">
+            <div class="menu_box" id="menuBar">
+                <dl class="menu no_extra">
+                    <dt class="menu_title">
+                        <i class="icon_menu" style="background:url('/app/img/icon_menu_management.png') no-repeat;"></i>订单管理
+                    </dt>
+
+                    <dd class="menu_item selected">
+                        <a href="#/default">未处理订单</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="#/order_sure">已确认订单</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="#/order_prepare">准备面试</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">录取</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">已完单</a>
+                    </dd>
+                </dl>
+
+                <dl class="menu">
+                    <dt class="menu_title">
+                        <i class="icon_menu" style="background:url('/app/img/0001.png') no-repeat;"></i>候选人管理
+                    </dt>
+
+                    <dd class="menu_item">
+                        <a href="">浏览候选人</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">新增候选人</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">已安排面试</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">准备录取</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">已录取</a>
+                    </dd>
+                </dl>
+
+                <dl class="menu">
+                    <dt class="menu_title">
+                        <i class="icon_menu" style="background:url('/app/img/0002.png') no-repeat;"></i>客户管理
+                    </dt>
+
+                    <dd class="menu_item">
+                        <a href="">所有客户</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">未转换客户</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">猎头客户</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">Staffing客户</a>
+                    </dd>
+                </dl>
+
+                <dl class="menu">
+                    <dt class="menu_title">
+                        <i class="icon_menu" style="background:url('/app/img/0003.png') no-repeat;"></i>内容管理
+                    </dt>
+
+                    <dd class="menu_item">
+                        <a href="">微信内容</a>
+                    </dd>
+                </dl>
+
+                <dl class="menu">
+                    <dt class="menu_title">
+                        <i class="icon_menu" style="background:url('/app/img/icon_menu_statistics.png') no-repeat;"></i>数据统计
+                    </dt>
+
+                    <dd class="menu_item">
+                        <a href="">全局概览</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">猎头业务数据</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">Staffing业务数据</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">推广ROI</a>
+                    </dd>
+
+                    <dd class="menu_item">
+                        <a href="">转化率</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="faq">
+                <ul class="links">
+                    <li class="links_item"><a href="">客服中心</a></li>
+                    <li class="links_item"><a href="" target="_blank">侵权投诉</a></li>
+                </ul>
+                <p class="tail">反馈QQ号695101788</p>
+            </div>
+        </div>
+
+        <div class="span9" id="col_main">
+            <div class="main_hd_bd main_hd">
+                <h2 class="title_border">未处理订单</h2>
+            </div>
+            <div class="main_bd">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>公司名称</th>
+                        <th>联系人</th>
+                        <th>电话</th>
+                        <th>预约岗位</th>
+                        <th>预约人数</th>
+                        <th>预约时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Apple</td>
+                        <td>Steve</td>
+                        <td>021-123456</td>
+                        <td>前台、出纳</td>
+                        <td>7</td>
+                        <td>2016-03-12 09:55:55</td>
+                        <td><a class="btn btn-success">处理</a></td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>Larry</td>
+                        <td>021-123456</td>
+                        <td>前台、出纳</td>
+                        <td>4</td>
+                        <td>2016-03-12 09:55:55</td>
+                        <td><a class="btn btn-success">处理</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

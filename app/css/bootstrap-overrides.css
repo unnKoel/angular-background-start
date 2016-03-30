@@ -1,0 +1,49 @@
+.navbar-inverse .nav > li > a {
+    padding: 13px 15px 13px;
+    border-left: 1px solid #101417;
+}
+
+.navbar-inverse .navbar-inner {
+    border-radius: 0;
+    border-bottom: 1px solid #191e23;
+    background: linear-gradient(to bottom, #2c3742 0%, #28303a 100%);
+}
+
+.navbar-inverse .btn-navbar {
+    float: left;
+    margin-top: 8px;
+}
+
+.navbar-inverse .brand {
+    margin-left: 5px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+dd {
+    margin: 0;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.table thead th {
+    font-weight: 400;
+
+}
+
+thead {
+    background-color: #f4f5f9;
+}
+
+.table {
+    border: 1px solid #e7e7eb;
+}

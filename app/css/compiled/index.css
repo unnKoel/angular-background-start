@@ -1,0 +1,9 @@
+body {
+    padding-top: 70px;
+}
+
+#container-box {
+    border: 1px solid #d9dadc;
+    background-color: #fff;
+    min-height: 700px;
+}
